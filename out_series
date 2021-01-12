@@ -1,0 +1,1457 @@
+===========================================
+                                           
+     Pauli Dressed Hartree Fock Solver     
+                                           
+===========================================
+
+Warning: output directory output_om_0.60_nsites_20_n_phot_9_lam_0.00 exists. Static output will be overwritten.
+===========================================
+                                           
+     Pauli Dressed Hartree Fock Solver     
+                                           
+===========================================
+
+Generation of initial state
+Cannot load states file from restart folder. File output_om_0.60_nsites_20_n_phot_9_lam_0.00/state_restart not found.
+No penalty restart information found.
+#####################################################################################################
+Penalty Iteration: 0
+Current penalty parameter mu =1.5000
+
+######################################################################
+SCF Iteration: 0
+State Iteration: 0 NON > 0 [0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 1.0000e-04 1.0000e-04
+ 2.0000e-04 3.0000e-04 3.0000e-04 5.0000e-04 7.0000e-04 9.0000e-04
+ 1.2000e-03 1.8000e-03 2.9000e-03 3.5000e-03 6.2000e-03 1.3100e-02
+ 1.9692e+00 1.9988e+00] alpha 0.11648 eig_val -3.29551 eig_val_pen 0.0 residue 0.46873 func_value -6.324527 cg_norm 1.09698
+State Iteration: 1 NON > 0 [0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00
+ 0.0000e+00 1.0000e-04 2.0000e-04 3.0000e-04 5.0000e-04 7.0000e-04
+ 1.0000e-03 1.3000e-03 2.8000e-03 3.0000e-03 5.7000e-03 1.3200e-02
+ 1.9692e+00 2.0020e+00] alpha 0.05728 eig_val -3.32026 eig_val_pen 0.0 residue 0.25182 func_value -6.348942 cg_norm 0.50972
+State Iteration: 2 NON > 0 [0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00
+ 0.0000e+00 0.0000e+00 1.0000e-04 2.0000e-04 4.0000e-04 6.0000e-04
+ 9.0000e-04 1.2000e-03 2.8000e-03 2.8000e-03 5.5000e-03 1.3300e-02
+ 1.9697e+00 2.0023e+00] alpha 0.0488 eig_val -3.33088 eig_val_pen 0.0 residue 0.20489 func_value -6.359536 cg_norm 0.29157
+State Iteration: 3 NON > 0 [0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00
+ 0.0000e+00 1.0000e-04 1.0000e-04 2.0000e-04 4.0000e-04 6.0000e-04
+ 9.0000e-04 1.1000e-03 2.7000e-03 2.8000e-03 5.5000e-03 1.3500e-02
+ 1.9680e+00 2.0039e+00] alpha 0.05368 eig_val -3.3389 eig_val_pen 0.0 residue 0.17221 func_value -6.367387 cg_norm 0.28145
+State Iteration: 4 NON > 0 [0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00
+ 0.0000e+00 1.0000e-04 1.0000e-04 2.0000e-04 4.0000e-04 6.0000e-04
+ 9.0000e-04 1.2000e-03 2.7000e-03 2.8000e-03 5.6000e-03 1.3700e-02
+ 1.9581e+00 2.0135e+00] alpha 0.05462 eig_val -3.34507 eig_val_pen 0.0 residue 0.16621 func_value -6.372344 cg_norm 0.26294
+State Iteration: 5 NON > 0 [0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00
+ 0.0000e+00 0.0000e+00 1.0000e-04 2.0000e-04 4.0000e-04 6.0000e-04
+ 9.0000e-04 1.2000e-03 2.8000e-03 2.8000e-03 5.6000e-03 1.3800e-02
+ 1.9417e+00 2.0298e+00] alpha 0.0511 eig_val -3.34985 eig_val_pen 0.0 residue 0.12353 func_value -6.374438 cg_norm 0.29583
+State Iteration: 6 NON > 0 [0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00
+ 0.0000e+00 0.0000e+00 1.0000e-04 2.0000e-04 4.0000e-04 6.0000e-04
+ 9.0000e-04 1.1000e-03 2.8000e-03 2.8000e-03 5.6000e-03 1.3900e-02
+ 1.9294e+00 2.0421e+00] alpha 0.0277 eig_val -3.35192 eig_val_pen 0.0 residue 0.07227 func_value -6.373936 cg_norm 0.20471
+State Iteration: 7 NON > 0 [0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00
+ 0.0000e+00 0.0000e+00 0.0000e+00 2.0000e-04 4.0000e-04 6.0000e-04
+ 9.0000e-04 1.1000e-03 2.8000e-03 2.8000e-03 5.6000e-03 1.3900e-02
+ 1.9203e+00 2.0514e+00] alpha 0.01466 eig_val -3.35268 eig_val_pen 0.0 residue 0.05061 func_value -6.372475 cg_norm 0.10062
+State Iteration: 8 NON > 0 [0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00
+ 0.0000e+00 0.0000e+00 0.0000e+00 2.0000e-04 4.0000e-04 6.0000e-04
+ 9.0000e-04 1.1000e-03 2.7000e-03 2.8000e-03 5.5000e-03 1.3900e-02
+ 1.9103e+00 2.0615e+00] alpha 0.01189 eig_val -3.35311 eig_val_pen 0.0 residue 0.04309 func_value -6.370185 cg_norm 0.07068
+State Iteration: 9 NON > 0 [0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00
+ 0.0000e+00 0.0000e+00 0.0000e+00 2.0000e-04 4.0000e-04 6.0000e-04
+ 9.0000e-04 1.1000e-03 2.7000e-03 2.8000e-03 5.5000e-03 1.4000e-02
+ 1.8964e+00 2.0754e+00] alpha 0.01314 eig_val -3.35348 eig_val_pen 0.0 residue 0.03733 func_value -6.366305 cg_norm 0.06694
+State Iteration: 10 NON > 0 [0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00
+ 0.0000e+00 0.0000e+00 0.0000e+00 2.0000e-04 4.0000e-04 6.0000e-04
+ 9.0000e-04 1.1000e-03 2.7000e-03 2.8000e-03 5.5000e-03 1.4000e-02
+ 1.8809e+00 2.0909e+00] alpha 0.01224 eig_val -3.35375 eig_val_pen 0.0 residue 0.03458 func_value -6.361166 cg_norm 0.0626
+State Iteration: 11 NON > 0 [0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00
+ 0.0000e+00 0.0000e+00 0.0000e+00 2.0000e-04 4.0000e-04 6.0000e-04
+ 9.0000e-04 1.1000e-03 2.8000e-03 2.8000e-03 5.5000e-03 1.4000e-02
+ 1.8606e+00 2.1111e+00] alpha 0.01394 eig_val -3.35401 eig_val_pen 0.0 residue 0.03675 func_value -6.353262 cg_norm 0.06387
+State Iteration: 12 NON > 0 [0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00
+ 0.0000e+00 0.0000e+00 0.0000e+00 2.0000e-04 4.0000e-04 6.0000e-04
+ 9.0000e-04 1.1000e-03 2.8000e-03 2.8000e-03 5.5000e-03 1.4000e-02
+ 1.8295e+00 2.1422e+00] alpha 0.01963 eig_val -3.35434 eig_val_pen 0.0 residue 0.03947 func_value -6.338692 cg_norm 0.08095
+State Iteration: 13 NON > 0 [0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00
+ 0.0000e+00 0.0000e+00 0.0000e+00 2.0000e-04 4.0000e-04 6.0000e-04
+ 9.0000e-04 1.1000e-03 2.7000e-03 2.8000e-03 5.5000e-03 1.4000e-02
+ 1.7962e+00 2.1755e+00] alpha 0.02007 eig_val -3.35465 eig_val_pen 0.0 residue 0.03539 func_value -6.319806 cg_norm 0.1014
+State Iteration: 14 NON > 0 [0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00
+ 0.0000e+00 0.0000e+00 0.0000e+00 2.0000e-04 4.0000e-04 6.0000e-04
+ 9.0000e-04 1.1000e-03 2.7000e-03 2.8000e-03 5.5000e-03 1.4000e-02
+ 1.7693e+00 2.2024e+00] alpha 0.01569 eig_val -3.35487 eig_val_pen 0.0 residue 0.02858 func_value -6.302042 cg_norm 0.08886
+State Iteration: 15 NON > 0 [0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00
+ 0.0000e+00 0.0000e+00 0.0000e+00 2.0000e-04 4.0000e-04 6.0000e-04
+ 9.0000e-04 1.1000e-03 2.7000e-03 2.8000e-03 5.5000e-03 1.4000e-02
+ 1.7489e+00 2.2228e+00] alpha 0.01157 eig_val -3.35502 eig_val_pen 0.0 residue 0.02324 func_value -6.287169 cg_norm 0.06459
+Iter. =  15 Error =  0.011574179966364341 State # 0 is NOT converged!!
+
+State Iteration: 0 NON > 0 [0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00
+ 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 1.0000e-04 1.0000e-04
+ 1.0000e-04 2.0000e-04 3.0000e-04 7.0000e-04 1.1000e-03 5.1000e-03
+ 1.9910e+00 2.0012e+00] alpha 0.12326 eig_val -3.16085 eig_val_pen 0.00229 residue 0.51632 func_value -6.518037 cg_norm 1.08068
+State Iteration: 1 NON > 0 [0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00
+ 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00
+ 0.0000e+00 1.0000e-04 1.0000e-04 2.0000e-04 3.0000e-04 2.1000e-03
+ 1.9962e+00 2.0008e+00] alpha 0.06652 eig_val -3.18751 eig_val_pen 0.00665 residue 0.30217 func_value -6.549083 cg_norm 0.57138
+State Iteration: 2 NON > 0 [0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00
+ 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00
+ 0.0000e+00 0.0000e+00 1.0000e-04 1.0000e-04 1.0000e-04 8.0000e-04
+ 1.9984e+00 2.0005e+00] alpha 0.05045 eig_val -3.19408 eig_val_pen 0.01276 residue 0.21265 func_value -6.561809 cg_norm 0.35588
+State Iteration: 3 NON > 0 [0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00
+ 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00
+ 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 1.0000e-04 2.0000e-04
+ 1.9993e+00 2.0002e+00] alpha 0.04297 eig_val -3.19754 eig_val_pen 0.01613 residue 0.16439 func_value -6.568666 cg_norm 0.26568
+State Iteration: 4 NON > 0 [0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00
+ 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00
+ 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 1.0000e-04
+ 1.9997e+00 2.0000e+00] alpha 0.0358 eig_val -3.2106 eig_val_pen 0.00702 residue 0.12552 func_value -6.57263 cg_norm 0.21301
+State Iteration: 5 NON > 0 [0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00
+ 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00
+ 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 1.0000e-04
+ 1.9998e+00 2.0000e+00] alpha 0.03147 eig_val -3.21768 eig_val_pen 0.00248 residue 0.08971 func_value -6.575178 cg_norm 0.17399
+State Iteration: 6 NON > 0 [0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00
+ 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00
+ 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 1.0000e-04
+ 1.9998e+00 2.0000e+00] alpha 0.02 eig_val -3.21806 eig_val_pen 0.00329 residue 0.06484 func_value -6.576369 cg_norm 0.12967
+State Iteration: 7 NON > 0 [0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00
+ 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00
+ 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 0.0000e+00 1.0000e-04
+ 1.9999e+00 2.0000e+00] alpha 0.01198 eig_val -3.21966 eig_val_pen 0.0022 residue 0.04105 func_value -6.576881 cg_norm 0.08769
+State Iteration: 8 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 0.00691 eig_val -3.21721 eig_val_pen 0.00485 residue 0.03665 func_value -6.577075 cg_norm 0.04968
+State Iteration: 9 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 0.00606 eig_val -3.0683 eig_val_pen 0.15387 residue 0.0831 func_value -6.577188 cg_norm 0.03327
+State Iteration: 10 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 0.00598 eig_val -3.03648 eig_val_pen 0.18577 residue 0.058 func_value -6.577271 cg_norm 0.03178
+State Iteration: 11 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 0.00473 eig_val -3.04978 eig_val_pen 0.17253 residue 0.07389 func_value -6.577323 cg_norm 0.02821
+State Iteration: 12 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 0.00348 eig_val -3.05097 eig_val_pen 0.17137 residue 0.07476 func_value -6.577352 cg_norm 0.02036
+State Iteration: 13 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 0.00379 eig_val -3.04449 eig_val_pen 0.17787 residue 0.06745 func_value -6.577377 cg_norm 0.01825
+State Iteration: 14 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 0.0034 eig_val -3.03786 eig_val_pen 0.18452 residue 0.0579 func_value -6.577396 cg_norm 0.01906
+State Iteration: 15 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 0.00191 eig_val -3.0319 eig_val_pen 0.19049 residue 0.04682 func_value -6.577405 cg_norm 0.01314
+Iter. =  15 Error =  0.0019116753289101394 State # 1 is NOT converged!!
+
+SCF error in gamma: 1.0555568143266867
+
+######################################################################
+SCF Iteration: 1
+State Iteration: 0 NON > 0 [0.     0.     0.     0.     0.     0.     0.     0.     0.     0.
+ 0.     0.     0.     0.     0.     0.     0.     0.     1.9991 2.0008] alpha 0.00253 eig_val -3.35507 eig_val_pen 0.0 residue 0.01611 func_value -6.577378 cg_norm 0.02324
+State Iteration: 1 NON > 0 [0.     0.     0.     0.     0.     0.     0.     0.     0.     0.
+ 0.     0.     0.     0.     0.     0.     0.     0.     1.9969 2.0031] alpha 0.00379 eig_val -3.35512 eig_val_pen 0.0 residue 0.01499 func_value -6.577192 cg_norm 0.0196
+State Iteration: 2 NON > 0 [0.     0.     0.     0.     0.     0.     0.     0.     0.     0.
+ 0.     0.     0.     0.     0.     0.     0.     0.     1.9934 2.0066] alpha 0.00463 eig_val -3.35517 eig_val_pen 0.0 residue 0.01355 func_value -6.57683 cg_norm 0.02265
+State Iteration: 3 NON > 0 [0.     0.     0.     0.     0.     0.     0.     0.     0.     0.
+ 0.     0.     0.     0.     0.     0.     0.     0.     1.9896 2.0104] alpha 0.00409 eig_val -3.3552 eig_val_pen 0.0 residue 0.01094 func_value -6.576386 cg_norm 0.02292
+State Iteration: 4 NON > 0 [0.     0.     0.     0.     0.     0.     0.     0.     0.     0.
+ 0.     0.     0.     0.     0.     0.     0.     0.     1.9861 2.0139] alpha 0.00319 eig_val -3.35522 eig_val_pen 0.0 residue 0.00984 func_value -6.575928 cg_norm 0.01852
+State Iteration: 5 NON > 0 [0.     0.     0.     0.     0.     0.     0.     0.     0.     0.
+ 0.     0.     0.     0.     0.     0.     0.     0.     1.9812 2.0188] alpha 0.00391 eig_val -3.35524 eig_val_pen 0.0 residue 0.00971 func_value -6.575217 cg_norm 0.01792
+State Iteration: 6 NON > 0 [0.     0.     0.     0.     0.     0.     0.     0.     0.     0.
+ 0.     0.     0.     0.     0.     0.     0.     0.     1.9753 2.0247] alpha 0.00428 eig_val -3.35527 eig_val_pen 0.0 residue 0.00908 func_value -6.57427 cg_norm 0.01997
+State Iteration: 7 NON > 0 [0.     0.     0.     0.     0.     0.     0.     0.     0.     0.
+ 0.     0.     0.     0.     0.     0.     0.     0.     1.9703 2.0296] alpha 0.00342 eig_val -3.35528 eig_val_pen 0.0 residue 0.00761 func_value -6.573386 cg_norm 0.01971
+State Iteration: 8 NON > 0 [0.     0.     0.     0.     0.     0.     0.     0.     0.     0.
+ 0.     0.     0.     0.     0.     0.     0.     0.     1.9658 2.0342] alpha 0.00296 eig_val -3.35529 eig_val_pen 0.0 residue 0.00691 func_value -6.572516 cg_norm 0.01577
+State Iteration: 9 NON > 0 [0.     0.     0.     0.     0.     0.     0.     0.     0.     0.
+ 0.     0.     0.     0.     0.     0.     0.     0.     1.9612 2.0388] alpha 0.00294 eig_val -3.3553 eig_val_pen 0.0 residue 0.00616 func_value -6.571556 cg_norm 0.01474
+State Iteration: 10 NON > 0 [0.     0.     0.     0.     0.     0.     0.     0.     0.     0.
+ 0.     0.     0.     0.     0.     0.     0.     0.     1.9577 2.0423] alpha 0.0022 eig_val -3.35531 eig_val_pen 0.0 residue 0.00448 func_value -6.570783 cg_norm 0.01322
+State Iteration: 11 NON > 0 [0.     0.     0.     0.     0.     0.     0.     0.     0.     0.
+ 0.     0.     0.     0.     0.     0.     0.     0.     1.9556 2.0444] alpha 0.00127 eig_val -3.35531 eig_val_pen 0.0 residue 0.00337 func_value -6.57031 cg_norm 0.00831
+State Iteration: 12 NON > 0 [0.     0.     0.     0.     0.     0.     0.     0.     0.     0.
+ 0.     0.     0.     0.     0.     0.     0.     0.     1.9535 2.0465] alpha 0.00125 eig_val -3.35531 eig_val_pen 0.0 residue 0.00351 func_value -6.56982 cg_norm 0.0058
+State Iteration: 13 NON > 0 [0.     0.     0.     0.     0.     0.     0.     0.     0.     0.
+ 0.     0.     0.     0.     0.     0.     0.     0.     1.9508 2.0492] alpha 0.00161 eig_val -3.35531 eig_val_pen 0.0 residue 0.00357 func_value -6.569157 cg_norm 0.00718
+State Iteration: 14 NON > 0 [0.     0.     0.     0.     0.     0.     0.     0.     0.     0.
+ 0.     0.     0.     0.     0.     0.     0.     0.     1.9476 2.0524] alpha 0.0019 eig_val -3.35532 eig_val_pen 0.0 residue 0.00379 func_value -6.568343 cg_norm 0.00824
+State Iteration: 15 NON > 0 [0.     0.     0.     0.     0.     0.     0.     0.     0.     0.
+ 0.     0.     0.     0.     0.     0.     0.     0.     1.9442 2.0558] alpha 0.00204 eig_val -3.35532 eig_val_pen 0.0 residue 0.00329 func_value -6.56745 cg_norm 0.01005
+Iter. =  15 Error =  0.0020445563496417746 State # 0 is NOT converged!!
+
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 0.00056 eig_val -3.22185 eig_val_pen 0.00042 residue 0.01015 func_value -6.577596 cg_norm 0.005
+State Iteration: 1 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 0.00097 eig_val -3.04905 eig_val_pen 0.17323 residue 0.06795 func_value -6.577598 cg_norm 0.00463
+Iter. =  1 Error =  0.0009739579195628797 State # 1 is converged!!
+
+SCF error in gamma: 0.05029661834589522
+
+######################################################################
+SCF Iteration: 2
+State Iteration: 0 NON > 0 [0.     0.     0.     0.     0.     0.     0.     0.     0.     0.
+ 0.     0.     0.     0.     0.     0.     0.     0.     1.9999 2.0001] alpha 0.00034 eig_val -3.35532 eig_val_pen 0.0 residue 0.00189 func_value -6.577594 cg_norm 0.00329
+Iter. =  0 Error =  0.00033975277443276186 State # 0 is converged!!
+
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 0.00041 eig_val -3.0225 eig_val_pen 0.19978 residue 0.00738 func_value -6.577601 cg_norm 0.00362
+Iter. =  0 Error =  0.0004100033949309785 State # 1 is converged!!
+
+SCF error in gamma: 0.0015026403289695926
+
+mu = 1.5 iter. =  2 SCF Error =  0.0015026403289695926 SCF is Converged!!
+
+penalty iteration convergence
+residue_error 0.009275082816455078
+energy_error 0.37966144491570386
+total_energy -6.577600986010735
+update penalty parameters according to penalty function norm: 0.0
+update penalty Lagrange multipliers: [0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.1]
+new mu: 1.5
+new Lagrange multiplier: [0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.1]
+new constraint tolerance: 0.357257820845431
+new scf tolerance 0.01
+
+#####################################################################################################
+Penalty Iteration: 1
+Current penalty parameter mu =1.5000
+
+######################################################################
+SCF Iteration: 0
+State Iteration: 0 NON > 0 [0.     0.     0.     0.     0.     0.     0.     0.     0.     0.
+ 0.     0.     0.     0.     0.     0.     0.     0.     1.9999 2.0001] alpha 0.0002 eig_val -3.35532 eig_val_pen 0.0 residue 0.00149 func_value -6.577596 cg_norm 0.00189
+Iter. =  0 Error =  0.00020083164062645672 State # 0 is converged!!
+
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 0.00028 eig_val -3.20439 eig_val_pen 0.01789 residue 0.05737 func_value -6.577602 cg_norm 0.00254
+Iter. =  0 Error =  0.0002830390067549245 State # 1 is converged!!
+
+SCF error in gamma: 0.0009762100035614688
+
+mu = 1.5 iter. =  0 SCF Error =  0.0009762100035614688 SCF is Converged!!
+
+penalty iteration convergence
+residue_error 0.05885500683982235
+energy_error 1.0827271346158795e-06
+total_energy -6.577602068737869
+update penalty parameters according to penalty function norm: 0.0
+update penalty Lagrange multipliers: [0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.1]
+new mu: 1.5
+new Lagrange multiplier: [0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.1]
+new constraint tolerance: 0.13291457765014614
+new scf tolerance 0.01
+
+#####################################################################################################
+Penalty Iteration: 2
+Current penalty parameter mu =1.5000
+
+######################################################################
+SCF Iteration: 0
+State Iteration: 0 NON > 0 [0.     0.     0.     0.     0.     0.     0.     0.     0.     0.
+ 0.     0.     0.     0.     0.     0.     0.     0.     1.9999 2.0001] alpha 0.00016 eig_val -3.35532 eig_val_pen 0.0 residue 0.00123 func_value -6.577597 cg_norm 0.00149
+Iter. =  0 Error =  0.000156202387257617 State # 0 is converged!!
+
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 0.00026 eig_val -3.21186 eig_val_pen 0.01042 residue 0.04475 func_value -6.577603 cg_norm 0.0024
+Iter. =  0 Error =  0.0002579259462391617 State # 1 is converged!!
+
+SCF error in gamma: 0.0008469519009394707
+
+mu = 1.5 iter. =  0 SCF Error =  0.0008469519009394707 SCF is Converged!!
+
+penalty iteration convergence
+residue_error 0.04597968204625129
+energy_error 8.355724583353208e-07
+total_energy -6.577602904310328
+update penalty parameters according to penalty function norm: 0.0
+update penalty Lagrange multipliers: [0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.1]
+new mu: 1.5
+new Lagrange multiplier: [0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.1]
+new constraint tolerance: 0.04944968009408565
+new scf tolerance 0.01
+
+#####################################################################################################
+Penalty Iteration: 3
+Current penalty parameter mu =1.5000
+
+######################################################################
+SCF Iteration: 0
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 0.00013 eig_val -3.35532 eig_val_pen 0.0 residue 0.00106 func_value -6.577598 cg_norm 0.00123
+Iter. =  0 Error =  0.00012986106098319532 State # 0 is converged!!
+
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 0.00025 eig_val -3.21434 eig_val_pen 0.00794 residue 0.03935 func_value -6.577604 cg_norm 0.00227
+Iter. =  0 Error =  0.0002503822823888 State # 1 is converged!!
+
+SCF error in gamma: 0.000791588892990935
+
+mu = 1.5 iter. =  0 SCF Error =  0.000791588892990935 SCF is Converged!!
+
+penalty iteration convergence
+residue_error 0.04040441347942849
+energy_error 7.155410743919788e-07
+total_energy -6.577603619851402
+update penalty parameters according to penalty function norm: 9.71311919784057e-10
+update penalty Lagrange multipliers: [0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.1]
+new mu: 1.5
+new Lagrange multiplier: [0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.1]
+new constraint tolerance: 0.01839731130052402
+new scf tolerance 0.01
+
+#####################################################################################################
+Penalty Iteration: 4
+Current penalty parameter mu =1.5000
+
+######################################################################
+SCF Iteration: 0
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 0.00011 eig_val -3.35532 eig_val_pen 0.0 residue 0.00093 func_value -6.577599 cg_norm 0.00106
+Iter. =  0 Error =  0.00011174091295941126 State # 0 is converged!!
+
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 0.00024 eig_val -3.21521 eig_val_pen 0.00708 residue 0.03724 func_value -6.577604 cg_norm 0.00222
+Iter. =  0 Error =  0.000238336407783747 State # 1 is converged!!
+
+SCF error in gamma: 0.0007380431356378669
+
+mu = 1.5 iter. =  0 SCF Error =  0.0007380431356378669 SCF is Converged!!
+
+penalty iteration convergence
+residue_error 0.03816407089799757
+energy_error 6.352245920382416e-07
+total_energy -6.577604255075994
+update penalty parameters according to penalty function norm: 8.411026986010484e-09
+update penalty Lagrange multipliers: [0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.1]
+new mu: 1.5
+new Lagrange multiplier: [0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.10000003]
+new constraint tolerance: 0.0068445551608102275
+new scf tolerance 0.01
+
+#####################################################################################################
+Penalty Iteration: 5
+Current penalty parameter mu =1.5000
+
+######################################################################
+SCF Iteration: 0
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 0.0001 eig_val -3.35532 eig_val_pen 0.0 residue 0.00083 func_value -6.5776 cg_norm 0.00093
+Iter. =  0 Error =  9.815080193547271e-05 State # 0 is converged!!
+
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 0.00023 eig_val -3.21627 eig_val_pen 0.00601 residue 0.03445 func_value -6.577605 cg_norm 0.00212
+Iter. =  0 Error =  0.00023379351466209293 State # 1 is converged!!
+
+SCF error in gamma: 0.000710639473425152
+
+mu = 1.5 iter. =  0 SCF Error =  0.000710639473425152 SCF is Converged!!
+
+penalty iteration convergence
+residue_error 0.03527506169084287
+energy_error 5.750801062021083e-07
+total_energy -6.5776048301561
+update penalty parameters according to penalty function norm: 1.1229910334975557e-08
+update penalty Lagrange multipliers: [0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.10000003]
+new mu: 1.5
+new Lagrange multiplier: [0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.10000006]
+new constraint tolerance: 0.0025464555436445504
+new scf tolerance 0.01
+
+#####################################################################################################
+Penalty Iteration: 6
+Current penalty parameter mu =1.5000
+
+######################################################################
+SCF Iteration: 0
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 9e-05 eig_val -3.35532 eig_val_pen 0.0 residue 0.00075 func_value -6.5776 cg_norm 0.00083
+Iter. =  0 Error =  8.75807155803551e-05 State # 0 is converged!!
+
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 0.00022 eig_val -3.21668 eig_val_pen 0.0056 residue 0.03329 func_value -6.577605 cg_norm 0.00208
+Iter. =  0 Error =  0.00022324493481249333 State # 1 is converged!!
+
+SCF error in gamma: 0.0006715677842890945
+
+mu = 1.5 iter. =  0 SCF Error =  0.0006715677842890945 SCF is Converged!!
+
+penalty iteration convergence
+residue_error 0.03403405493313271
+energy_error 5.270315055483366e-07
+total_energy -6.577605357187606
+update penalty parameters according to penalty function norm: 1.2205593868941378e-08
+update penalty Lagrange multipliers: [0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.10000006]
+new mu: 1.5
+new Lagrange multiplier: [0.        0.        0.        0.        0.        0.        0.
+ 0.        0.        0.        0.        0.        0.        0.
+ 0.        0.        0.        0.        0.        0.1000001]
+new constraint tolerance: 0.0009473860146362623
+new scf tolerance 0.01
+
+#####################################################################################################
+Penalty Iteration: 7
+Current penalty parameter mu =1.5000
+
+######################################################################
+SCF Iteration: 0
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 8e-05 eig_val -3.35532 eig_val_pen 0.0 residue 0.00069 func_value -6.577601 cg_norm 0.00075
+Iter. =  0 Error =  7.986287474807235e-05 State # 0 is converged!!
+
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 0.00022 eig_val -3.2175 eig_val_pen 0.00479 residue 0.03085 func_value -6.577606 cg_norm 0.00199
+Iter. =  0 Error =  0.00022022844641998243 State # 1 is converged!!
+
+SCF error in gamma: 0.0006557902897499172
+
+mu = 1.5 iter. =  0 SCF Error =  0.0006557902897499172 SCF is Converged!!
+
+penalty iteration convergence
+residue_error 0.03154284668508941
+energy_error 4.871980250342745e-07
+total_energy -6.577605844385631
+update penalty parameters according to penalty function norm: 1.1606537508868087e-08
+update penalty Lagrange multipliers: [0.        0.        0.        0.        0.        0.        0.
+ 0.        0.        0.        0.        0.        0.        0.
+ 0.        0.        0.        0.        0.        0.1000001]
+new mu: 1.5
+new Lagrange multiplier: [0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.10000013]
+new constraint tolerance: 0.00035246649523038536
+new scf tolerance 0.01
+
+#####################################################################################################
+Penalty Iteration: 8
+Current penalty parameter mu =1.5000
+
+######################################################################
+SCF Iteration: 0
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 7e-05 eig_val -3.35532 eig_val_pen 0.0 residue 0.00063 func_value -6.577601 cg_norm 0.00069
+Iter. =  0 Error =  7.214503391460036e-05 State # 0 is converged!!
+
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 0.00021 eig_val -3.21782 eig_val_pen 0.00447 residue 0.02984 func_value -6.577606 cg_norm 0.00197
+Iter. =  0 Error =  0.0002111352168713468 State # 1 is converged!!
+
+SCF error in gamma: 0.0006244112027315216
+
+mu = 1.5 iter. =  0 SCF Error =  0.0006244112027315216 SCF is Converged!!
+
+penalty iteration convergence
+residue_error 0.030463657799710154
+energy_error 4.5332995401992093e-07
+total_energy -6.577606297715584
+update penalty parameters according to penalty function norm: 1.0692559726521722e-08
+update penalty Lagrange multipliers: [0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.10000013]
+new mu: 1.5
+new Lagrange multiplier: [0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.10000017]
+new constraint tolerance: 0.0001311320077990479
+new scf tolerance 0.01
+
+#####################################################################################################
+Penalty Iteration: 9
+Current penalty parameter mu =1.5000
+
+######################################################################
+SCF Iteration: 0
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 7e-05 eig_val -3.35532 eig_val_pen 0.0 residue 0.0006 func_value -6.577602 cg_norm 0.00063
+Iter. =  0 Error =  6.878945094318374e-05 State # 0 is converged!!
+
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 0.00021 eig_val -3.21837 eig_val_pen 0.00391 residue 0.02796 func_value -6.577607 cg_norm 0.00189
+Iter. =  0 Error =  0.00020671422649449467 State # 1 is converged!!
+
+SCF error in gamma: 0.0006089225231706602
+
+mu = 1.5 iter. =  0 SCF Error =  0.0006089225231706602 SCF is Converged!!
+
+penalty iteration convergence
+residue_error 0.02856455187551285
+energy_error 4.231320103187386e-07
+total_energy -6.577606720847594
+update penalty parameters according to penalty function norm: 9.339621964699063e-09
+update penalty Lagrange multipliers: [0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.10000017]
+new mu: 1.5
+new Lagrange multiplier: [0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.10000019]
+new constraint tolerance: 4.8786490920704014e-05
+new scf tolerance 0.01
+
+#####################################################################################################
+Penalty Iteration: 10
+Current penalty parameter mu =1.5000
+
+######################################################################
+SCF Iteration: 0
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 6e-05 eig_val -3.35532 eig_val_pen 0.0 residue 0.00056 func_value -6.577602 cg_norm 0.0006
+Iter. =  0 Error =  6.342051818851831e-05 State # 0 is converged!!
+
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 0.0002 eig_val -3.21878 eig_val_pen 0.0035 residue 0.02651 func_value -6.577607 cg_norm 0.00185
+Iter. =  0 Error =  0.00020057004999457002 State # 1 is converged!!
+
+SCF error in gamma: 0.0005882330826001298
+
+mu = 1.5 iter. =  0 SCF Error =  0.0005882330826001298 SCF is Converged!!
+
+penalty iteration convergence
+residue_error 0.02706473334481925
+energy_error 3.970789146379161e-07
+total_energy -6.577607117926509
+update penalty parameters according to penalty function norm: 8.042090993143347e-09
+update penalty Lagrange multipliers: [0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.10000019]
+new mu: 1.5
+new Lagrange multiplier: [0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.10000022]
+new constraint tolerance: 1.8150577698797474e-05
+new scf tolerance 0.01
+
+#####################################################################################################
+Penalty Iteration: 11
+Current penalty parameter mu =1.5000
+
+######################################################################
+SCF Iteration: 0
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 6e-05 eig_val -3.35532 eig_val_pen 0.0 residue 0.00054 func_value -6.577603 cg_norm 0.00056
+Iter. =  0 Error =  6.040049351381567e-05 State # 0 is converged!!
+
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 0.00019 eig_val -3.21915 eig_val_pen 0.00314 residue 0.02513 func_value -6.577607 cg_norm 0.0018
+Iter. =  0 Error =  0.00019460065091789113 State # 1 is converged!!
+
+SCF error in gamma: 0.000569171753375872
+
+mu = 1.5 iter. =  0 SCF Error =  0.000569171753375872 SCF is Converged!!
+
+penalty iteration convergence
+residue_error 0.025661647957173992
+energy_error 3.730385511602208e-07
+total_energy -6.57760749096506
+update penalty parameters according to penalty function norm: 6.7664585046145476e-09
+update penalty Lagrange multipliers: [0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.10000022]
+new mu: 1.5
+new Lagrange multiplier: [0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.10000024]
+new constraint tolerance: 6.7527601305769454e-06
+new scf tolerance 0.01
+
+#####################################################################################################
+Penalty Iteration: 12
+Current penalty parameter mu =1.5000
+
+######################################################################
+SCF Iteration: 0
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 6e-05 eig_val -3.35532 eig_val_pen 0.0 residue 0.0005 func_value -6.577603 cg_norm 0.00054
+Iter. =  0 Error =  5.587045650150572e-05 State # 0 is converged!!
+
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 0.00019 eig_val -3.21957 eig_val_pen 0.00272 residue 0.02343 func_value -6.577608 cg_norm 0.00175
+Iter. =  0 Error =  0.00018997646477091513 State # 1 is converged!!
+
+SCF error in gamma: 0.0005534251499547209
+
+mu = 1.5 iter. =  0 SCF Error =  0.0005534251499547209 SCF is Converged!!
+
+penalty iteration convergence
+residue_error 0.023925995534951585
+energy_error 3.5173288193135477e-07
+total_energy -6.577607842697942
+update penalty parameters according to penalty function norm: 5.651408674367531e-09
+update penalty Lagrange multipliers: [0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.10000024]
+new mu: 1.5
+new Lagrange multiplier: [0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.10000025]
+new constraint tolerance: 2.512304023476381e-06
+new scf tolerance 0.01
+
+#####################################################################################################
+Penalty Iteration: 13
+Current penalty parameter mu =1.5000
+
+######################################################################
+SCF Iteration: 0
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 5e-05 eig_val -3.35532 eig_val_pen 0.0 residue 0.00048 func_value -6.577603 cg_norm 0.0005
+Iter. =  0 Error =  5.4360444164004114e-05 State # 0 is converged!!
+
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 0.00018 eig_val -3.21985 eig_val_pen 0.00243 residue 0.02218 func_value -6.577608 cg_norm 0.00171
+Iter. =  0 Error =  0.0001840612423950102 State # 1 is converged!!
+
+SCF error in gamma: 0.0005354898830067321
+
+mu = 1.5 iter. =  0 SCF Error =  0.0005354898830067321 SCF is Converged!!
+
+penalty iteration convergence
+residue_error 0.02266149426498989
+energy_error 3.315232071088303e-07
+total_energy -6.577608174221149
+update penalty parameters according to penalty function norm: 4.612353610156106e-09
+update penalty Lagrange multipliers: [0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.10000025]
+new mu: 1.5
+new Lagrange multiplier: [0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.10000027]
+new constraint tolerance: 9.346802469402023e-07
+new scf tolerance 0.01
+
+#####################################################################################################
+Penalty Iteration: 14
+Current penalty parameter mu =1.5000
+
+######################################################################
+SCF Iteration: 0
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 5e-05 eig_val -3.35532 eig_val_pen 0.0 residue 0.00046 func_value -6.577604 cg_norm 0.00048
+Iter. =  0 Error =  5.134041948890888e-05 State # 0 is converged!!
+
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 0.00018 eig_val -3.22029 eig_val_pen 0.002 residue 0.02017 func_value -6.577608 cg_norm 0.00165
+Iter. =  0 Error =  0.00018093951553421178 State # 1 is converged!!
+
+SCF error in gamma: 0.0005251661406715022
+
+mu = 1.5 iter. =  0 SCF Error =  0.0005251661406715022 SCF is Converged!!
+
+penalty iteration convergence
+residue_error 0.020625826223325306
+energy_error 3.135036497070587e-07
+total_energy -6.577608487724799
+update penalty parameters according to penalty function norm: 3.7439100708525075e-09
+update penalty Lagrange multipliers: [0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.10000027]
+new mu: 1.5
+new Lagrange multiplier: [0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.10000028]
+new constraint tolerance: 3.4773942797389736e-07
+new scf tolerance 0.01
+
+#####################################################################################################
+Penalty Iteration: 15
+Current penalty parameter mu =1.5000
+
+######################################################################
+SCF Iteration: 0
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 5e-05 eig_val -3.35532 eig_val_pen 0.0 residue 0.00045 func_value -6.577604 cg_norm 0.00046
+Iter. =  0 Error =  4.9830407151317126e-05 State # 0 is converged!!
+
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 0.00017 eig_val -3.22042 eig_val_pen 0.00187 residue 0.01949 func_value -6.577609 cg_norm 0.00163
+Iter. =  0 Error =  0.000173468722003283 State # 1 is converged!!
+
+SCF error in gamma: 0.0005032466185923145
+
+mu = 1.5 iter. =  0 SCF Error =  0.0005032466185923145 SCF is Converged!!
+
+penalty iteration convergence
+residue_error 0.019939306425304695
+energy_error 2.963725833637909e-07
+total_energy -6.577608784097382
+update penalty parameters according to penalty function norm: 3.011415561360309e-09
+update penalty Lagrange multipliers: [0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.10000028]
+new mu: 1.5
+new Lagrange multiplier: [0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.10000029]
+new constraint tolerance: 1.2937334469565353e-07
+new scf tolerance 0.01
+
+#####################################################################################################
+Penalty Iteration: 16
+Current penalty parameter mu =1.5000
+
+######################################################################
+SCF Iteration: 0
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 5e-05 eig_val -3.35532 eig_val_pen 0.0 residue 0.00042 func_value -6.577605 cg_norm 0.00045
+Iter. =  0 Error =  4.681038247604897e-05 State # 0 is converged!!
+
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 0.00017 eig_val -3.22084 eig_val_pen 0.00144 residue 0.01718 func_value -6.577609 cg_norm 0.00156
+Iter. =  0 Error =  0.00017184376393524644 State # 1 is converged!!
+
+SCF error in gamma: 0.0004971213547651012
+
+mu = 1.5 iter. =  0 SCF Error =  0.0004971213547651012 SCF is Converged!!
+
+penalty iteration convergence
+residue_error 0.01760383247598665
+energy_error 2.8092560544479284e-07
+total_energy -6.577609065022988
+update penalty parameters according to penalty function norm: 2.4157960076820473e-09
+update penalty Lagrange multipliers: [0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.10000029]
+new mu: 1.5
+new Lagrange multiplier: [0.        0.        0.        0.        0.        0.        0.
+ 0.        0.        0.        0.        0.        0.        0.
+ 0.        0.        0.        0.        0.        0.1000003]
+new constraint tolerance: 4.8132196039031735e-08
+new scf tolerance 0.01
+
+#####################################################################################################
+Penalty Iteration: 17
+Current penalty parameter mu =1.5000
+
+######################################################################
+SCF Iteration: 0
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 5e-05 eig_val -3.35532 eig_val_pen 0.0 residue 0.00042 func_value -6.577605 cg_norm 0.00042
+Iter. =  0 Error =  4.681038247604885e-05 State # 0 is converged!!
+
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 0.00016 eig_val -3.221 eig_val_pen 0.00129 residue 0.01626 func_value -6.577609 cg_norm 0.00154
+Iter. =  0 Error =  0.0001659682969742211 State # 1 is converged!!
+
+SCF error in gamma: 0.00048022065597929503
+
+mu = 1.5 iter. =  0 SCF Error =  0.00048022065597929503 SCF is Converged!!
+
+penalty iteration convergence
+residue_error 0.01668421239866579
+energy_error 2.6566137911743226e-07
+total_energy -6.577609330684367
+update penalty parameters according to penalty function norm: 1.8499588527731703e-09
+update penalty Lagrange multipliers: [0.        0.        0.        0.        0.        0.        0.
+ 0.        0.        0.        0.        0.        0.        0.
+ 0.        0.        0.        0.        0.        0.1000003]
+new mu: 1.5
+new Lagrange multiplier: [0.        0.        0.        0.        0.        0.        0.
+ 0.        0.        0.        0.        0.        0.        0.
+ 0.        0.        0.        0.        0.        0.1000003]
+new constraint tolerance: 1.7907153138768738e-08
+new scf tolerance 0.01
+
+#####################################################################################################
+Penalty Iteration: 18
+Current penalty parameter mu =1.5000
+
+######################################################################
+SCF Iteration: 0
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 4e-05 eig_val -3.35532 eig_val_pen 0.0 residue 0.00039 func_value -6.577605 cg_norm 0.00042
+Iter. =  0 Error =  4.3790357800674017e-05 State # 0 is converged!!
+
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 0.00016 eig_val -3.22126 eig_val_pen 0.00103 residue 0.01458 func_value -6.57761 cg_norm 0.00149
+Iter. =  0 Error =  0.00016276019461972116 State # 1 is converged!!
+
+SCF error in gamma: 0.00047021187039644286
+
+mu = 1.5 iter. =  0 SCF Error =  0.00047021187039644286 SCF is Converged!!
+
+penalty iteration convergence
+residue_error 0.014976541968326785
+energy_error 2.523197277781719e-07
+total_energy -6.577609583004095
+update penalty parameters according to penalty function norm: 1.4845844553690313e-09
+update penalty Lagrange multipliers: [0.        0.        0.        0.        0.        0.        0.
+ 0.        0.        0.        0.        0.        0.        0.
+ 0.        0.        0.        0.        0.        0.1000003]
+new mu: 1.5
+new Lagrange multiplier: [0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.10000031]
+new constraint tolerance: 6.662196199717919e-09
+new scf tolerance 0.01
+
+#####################################################################################################
+Penalty Iteration: 19
+Current penalty parameter mu =1.5000
+
+######################################################################
+SCF Iteration: 0
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 4e-05 eig_val -3.35532 eig_val_pen 0.0 residue 0.0004 func_value -6.577605 cg_norm 0.00039
+Iter. =  0 Error =  4.3790357800674e-05 State # 0 is converged!!
+
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 0.00016 eig_val -3.22137 eig_val_pen 0.00091 residue 0.01374 func_value -6.57761 cg_norm 0.00146
+Iter. =  0 Error =  0.00015756267279672773 State # 1 is converged!!
+
+SCF error in gamma: 0.0004551050516237848
+
+mu = 1.5 iter. =  0 SCF Error =  0.0004551050516237848 SCF is Converged!!
+
+penalty iteration convergence
+residue_error 0.014140493914310166
+energy_error 2.388670576891627e-07
+total_energy -6.577609821871152
+update penalty parameters according to penalty function norm: 1.0916187953569079e-09
+update penalty Lagrange multipliers: [0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.10000031]
+new mu: 1.5
+new Lagrange multiplier: [0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.10000031]
+new constraint tolerance: 2.4786105228219265e-09
+new scf tolerance 0.01
+
+#####################################################################################################
+Penalty Iteration: 20
+Current penalty parameter mu =1.5000
+
+######################################################################
+SCF Iteration: 0
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 4e-05 eig_val -3.35532 eig_val_pen 0.0 residue 0.00037 func_value -6.577606 cg_norm 0.0004
+Iter. =  0 Error =  4.0770333125199386e-05 State # 0 is converged!!
+
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 0.00015 eig_val -3.22158 eig_val_pen 0.00071 residue 0.01214 func_value -6.57761 cg_norm 0.00142
+Iter. =  0 Error =  0.00015501141024187073 State # 1 is converged!!
+
+SCF error in gamma: 0.0004469948809939082
+
+mu = 1.5 iter. =  0 SCF Error =  0.0004469948809939082 SCF is Converged!!
+
+penalty iteration convergence
+residue_error 0.01250755028781288
+energy_error 2.272060202201942e-07
+total_energy -6.5776100490771725
+update penalty parameters according to penalty function norm: 8.775700166552269e-10
+update penalty Lagrange multipliers: [0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.10000031]
+new mu: 1.5
+new Lagrange multiplier: [0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.10000031]
+new constraint tolerance: 9.221448813086145e-10
+new scf tolerance 0.01
+
+#####################################################################################################
+Penalty Iteration: 21
+Current penalty parameter mu =1.5000
+
+######################################################################
+SCF Iteration: 0
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 4e-05 eig_val -3.35532 eig_val_pen 0.0 residue 0.00037 func_value -6.577606 cg_norm 0.00037
+Iter. =  0 Error =  4.077033312519938e-05 State # 0 is converged!!
+
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 0.00015 eig_val -3.22161 eig_val_pen 0.00067 residue 0.01183 func_value -6.57761 cg_norm 0.00139
+Iter. =  0 Error =  0.00014899586797470604 State # 1 is converged!!
+
+SCF error in gamma: 0.00042952078900486597
+
+mu = 1.5 iter. =  0 SCF Error =  0.00042952078900486597 SCF is Converged!!
+
+penalty iteration convergence
+residue_error 0.012203021525250152
+energy_error 2.1523497117925672e-07
+total_energy -6.577610264312144
+update penalty parameters according to penalty function norm: 6.141167574469364e-10
+update penalty Lagrange multipliers: [0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.10000031]
+new mu: 1.5
+new Lagrange multiplier: [0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.10000031]
+new constraint tolerance: 3.430757572817629e-10
+new scf tolerance 0.01
+
+#####################################################################################################
+Penalty Iteration: 22
+Current penalty parameter mu =1.5000
+
+######################################################################
+SCF Iteration: 0
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 4e-05 eig_val -3.35532 eig_val_pen 0.0 residue 0.00035 func_value -6.577607 cg_norm 0.00037
+Iter. =  0 Error =  3.8756983341497476e-05 State # 0 is converged!!
+
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 0.00015 eig_val -3.22181 eig_val_pen 0.00047 residue 0.00999 func_value -6.57761 cg_norm 0.00134
+Iter. =  0 Error =  0.00014882689353395593 State # 1 is converged!!
+
+SCF error in gamma: 0.00042849699287366387
+
+mu = 1.5 iter. =  0 SCF Error =  0.00042849699287366387 SCF is Converged!!
+
+penalty iteration convergence
+residue_error 0.010344008760978976
+energy_error 2.047867404542103e-07
+total_energy -6.577610469098884
+update penalty parameters according to penalty function norm: 4.595239744276114e-10
+update penalty parameter mu: 1.5
+new mu: 15.0
+new Lagrange multiplier: [0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.10000031]
+new constraint tolerance: 0.7116851017915987
+new scf tolerance 0.0005
+
+#####################################################################################################
+Penalty Iteration: 23
+Current penalty parameter mu =15.0000
+
+######################################################################
+SCF Iteration: 0
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 4e-05 eig_val -3.35532 eig_val_pen 0.0 residue 0.00035 func_value -6.577607 cg_norm 0.00035
+Iter. =  0 Error =  3.811732533729213e-05 State # 0 is converged!!
+
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 0.00014 eig_val -3.22178 eig_val_pen 0.00051 residue 0.01036 func_value -6.577611 cg_norm 0.00134
+State Iteration: 1 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 0.00398 eig_val -3.20291 eig_val_pen 0.01938 residue 0.05934 func_value -6.577614 cg_norm 0.00175
+State Iteration: 2 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 4e-05 eig_val -3.19963 eig_val_pen 0.02266 residue 0.06357 func_value -6.577614 cg_norm 0.00065
+Iter. =  2 Error =  4.3979109342888016e-05 State # 1 is converged!!
+
+SCF error in gamma: 0.011597278074645048
+
+######################################################################
+SCF Iteration: 1
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 4e-05 eig_val -3.35532 eig_val_pen 0.0 residue 0.00033 func_value -6.577611 cg_norm 0.00035
+Iter. =  0 Error =  3.654439581873822e-05 State # 0 is converged!!
+
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 6e-05 eig_val -3.19989 eig_val_pen 0.0224 residue 0.06325 func_value -6.577614 cg_norm 0.00025
+State Iteration: 1 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 0.0003 eig_val -3.20513 eig_val_pen 0.01716 residue 0.05619 func_value -6.577614 cg_norm 0.00087
+State Iteration: 2 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 2e-05 eig_val -3.20591 eig_val_pen 0.01638 residue 0.05501 func_value -6.577614 cg_norm 0.00018
+Iter. =  2 Error =  1.5100123380605814e-05 State # 1 is converged!!
+
+SCF error in gamma: 0.0010201530316449512
+
+######################################################################
+SCF Iteration: 2
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 4e-05 eig_val -3.35532 eig_val_pen 0.0 residue 0.00033 func_value -6.577611 cg_norm 0.00033
+Iter. =  0 Error =  3.6020085979215125e-05 State # 0 is converged!!
+
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 1e-05 eig_val -3.20642 eig_val_pen 0.01587 residue 0.05423 func_value -6.577614 cg_norm 0.0001
+Iter. =  0 Error =  2.3305840799272682e-05 State # 1 is converged!!
+
+SCF error in gamma: 9.635173969028408e-05
+
+mu = 15.0 iter. =  2 SCF Error =  9.635173969028408e-05 SCF is Converged!!
+
+penalty iteration convergence
+residue_error 0.05455855470681498
+energy_error 3.9792339014965705e-06
+total_energy -6.577614448332786
+update penalty parameters according to penalty function norm: 2.9633375753235214e-09
+update penalty Lagrange multipliers: [0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.10000031]
+new mu: 15.0
+new Lagrange multiplier: [0.        0.        0.        0.        0.        0.        0.
+ 0.        0.        0.        0.        0.        0.        0.
+ 0.        0.        0.        0.        0.        0.1000004]
+new constraint tolerance: 0.033333333333333326
+new scf tolerance 0.0005
+
+#####################################################################################################
+Penalty Iteration: 24
+Current penalty parameter mu =15.0000
+
+######################################################################
+SCF Iteration: 0
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 3e-05 eig_val -3.35532 eig_val_pen 0.0 residue 0.00031 func_value -6.577611 cg_norm 0.00033
+Iter. =  0 Error =  3.45520184285375e-05 State # 0 is converged!!
+
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 1e-05 eig_val -3.20579 eig_val_pen 0.0165 residue 0.0552 func_value -6.577614 cg_norm 0.00012
+Iter. =  0 Error =  2.026005296423731e-05 State # 1 is converged!!
+
+SCF error in gamma: 8.853340590031037e-05
+
+mu = 15.0 iter. =  0 SCF Error =  8.853340590031037e-05 SCF is Converged!!
+
+penalty iteration convergence
+residue_error 0.055512272377768165
+energy_error 6.655969109203852e-09
+total_energy -6.577614454988754
+update penalty parameters according to penalty function norm: 2.489741746103391e-09
+update penalty Lagrange multipliers: [0.        0.        0.        0.        0.        0.        0.
+ 0.        0.        0.        0.        0.        0.        0.
+ 0.        0.        0.        0.        0.        0.1000004]
+new mu: 15.0
+new Lagrange multiplier: [0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.10000048]
+new constraint tolerance: 0.0015612398072040506
+new scf tolerance 0.0005
+
+#####################################################################################################
+Penalty Iteration: 25
+Current penalty parameter mu =15.0000
+
+######################################################################
+SCF Iteration: 0
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 3e-05 eig_val -3.35532 eig_val_pen 0.0 residue 0.00031 func_value -6.577611 cg_norm 0.00031
+Iter. =  0 Error =  3.41325705569118e-05 State # 0 is converged!!
+
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 1e-05 eig_val -3.2061 eig_val_pen 0.01619 residue 0.05472 func_value -6.577614 cg_norm 8e-05
+Iter. =  0 Error =  2.1255170420816997e-05 State # 1 is converged!!
+
+SCF error in gamma: 8.827514041828368e-05
+
+mu = 15.0 iter. =  0 SCF Error =  8.827514041828368e-05 SCF is Converged!!
+
+penalty iteration convergence
+residue_error 0.055030538134914604
+energy_error 5.830004035090042e-09
+total_energy -6.577614460818758
+update penalty parameters according to penalty function norm: 1.7369905513930917e-09
+update penalty Lagrange multipliers: [0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.10000048]
+new mu: 15.0
+new Lagrange multiplier: [0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.10000053]
+new constraint tolerance: 7.312409206795625e-05
+new scf tolerance 0.0005
+
+#####################################################################################################
+Penalty Iteration: 26
+Current penalty parameter mu =15.0000
+
+######################################################################
+SCF Iteration: 0
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 3e-05 eig_val -3.35532 eig_val_pen 0.0 residue 0.0003 func_value -6.577611 cg_norm 0.00031
+Iter. =  0 Error =  3.274839258053659e-05 State # 0 is converged!!
+
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 1e-05 eig_val -3.20537 eig_val_pen 0.01692 residue 0.05582 func_value -6.577614 cg_norm 9e-05
+Iter. =  0 Error =  1.8889536461062796e-05 State # 1 is converged!!
+
+SCF error in gamma: 8.204084968586964e-05
+
+mu = 15.0 iter. =  0 SCF Error =  8.204084968586964e-05 SCF is Converged!!
+
+penalty iteration convergence
+residue_error 0.05612220310439148
+energy_error 5.4190003595522285e-09
+total_energy -6.577614466237758
+update penalty parameters according to penalty function norm: 1.4562244743387964e-09
+update penalty Lagrange multipliers: [0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.10000053]
+new mu: 15.0
+new Lagrange multiplier: [0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.10000057]
+new constraint tolerance: 3.4249273020644183e-06
+new scf tolerance 0.0005
+
+#####################################################################################################
+Penalty Iteration: 27
+Current penalty parameter mu =15.0000
+
+######################################################################
+SCF Iteration: 0
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 3e-05 eig_val -3.35532 eig_val_pen 0.0 residue 0.0003 func_value -6.577611 cg_norm 0.0003
+Iter. =  0 Error =  3.2370889496067985e-05 State # 0 is converged!!
+
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 1e-05 eig_val -3.20535 eig_val_pen 0.01694 residue 0.05585 func_value -6.577614 cg_norm 6e-05
+Iter. =  0 Error =  1.974737107817454e-05 State # 1 is converged!!
+
+SCF error in gamma: 8.159008548054949e-05
+
+mu = 15.0 iter. =  0 SCF Error =  8.159008548054949e-05 SCF is Converged!!
+
+penalty iteration convergence
+residue_error 0.05614533870043931
+energy_error 4.763879069002996e-09
+total_energy -6.577614471001637
+update penalty parameters according to penalty function norm: 9.857763494380833e-10
+update penalty Lagrange multipliers: [0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.10000057]
+new mu: 15.0
+new Lagrange multiplier: [0.        0.        0.        0.        0.        0.        0.
+ 0.        0.        0.        0.        0.        0.        0.
+ 0.        0.        0.        0.        0.        0.1000006]
+new constraint tolerance: 1.604139852228883e-07
+new scf tolerance 0.0005
+
+#####################################################################################################
+Penalty Iteration: 28
+Current penalty parameter mu =15.0000
+
+######################################################################
+SCF Iteration: 0
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 3e-05 eig_val -3.35532 eig_val_pen 0.0 residue 0.00028 func_value -6.577611 cg_norm 0.0003
+Iter. =  0 Error =  3.114400447153671e-05 State # 0 is converged!!
+
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 1e-05 eig_val -3.20444 eig_val_pen 0.01785 residue 0.05718 func_value -6.577614 cg_norm 8e-05
+Iter. =  0 Error =  1.790733821710182e-05 State # 1 is converged!!
+
+SCF error in gamma: 7.66335846592165e-05
+
+mu = 15.0 iter. =  0 SCF Error =  7.66335846592165e-05 SCF is Converged!!
+
+penalty iteration convergence
+residue_error 0.05746117726795912
+energy_error 4.47055814589703e-09
+total_energy -6.5776144754721955
+update penalty parameters according to penalty function norm: 8.197824641342777e-10
+update penalty Lagrange multipliers: [0.        0.        0.        0.        0.        0.        0.
+ 0.        0.        0.        0.        0.        0.        0.
+ 0.        0.        0.        0.        0.        0.1000006]
+new mu: 15.0
+new Lagrange multiplier: [0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.10000063]
+new constraint tolerance: 7.513340980866467e-09
+new scf tolerance 0.0005
+
+#####################################################################################################
+Penalty Iteration: 29
+Current penalty parameter mu =15.0000
+
+######################################################################
+SCF Iteration: 0
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 3e-05 eig_val -3.35532 eig_val_pen 0.0 residue 0.00028 func_value -6.577611 cg_norm 0.00028
+Iter. =  0 Error =  3.076650138706315e-05 State # 0 is converged!!
+
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 1e-05 eig_val -3.20373 eig_val_pen 0.01856 residue 0.05818 func_value -6.577614 cg_norm 5e-05
+Iter. =  0 Error =  1.8487415167211005e-05 State # 1 is converged!!
+
+SCF error in gamma: 7.583148998156113e-05
+
+mu = 15.0 iter. =  0 SCF Error =  7.583148998156113e-05 SCF is Converged!!
+
+penalty iteration convergence
+residue_error 0.05846397879807292
+energy_error 3.944927051691138e-09
+total_energy -6.5776144794171225
+update penalty parameters according to penalty function norm: 5.393254731700381e-10
+update penalty Lagrange multipliers: [0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.10000063]
+new mu: 15.0
+new Lagrange multiplier: [0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.10000064]
+new constraint tolerance: 3.519038107327878e-10
+new scf tolerance 0.0005
+
+#####################################################################################################
+Penalty Iteration: 30
+Current penalty parameter mu =15.0000
+
+######################################################################
+SCF Iteration: 0
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 3e-05 eig_val -3.35532 eig_val_pen 0.0 residue 0.00027 func_value -6.577611 cg_norm 0.00028
+Iter. =  0 Error =  2.9633992133636154e-05 State # 0 is converged!!
+
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 1e-05 eig_val -3.20261 eig_val_pen 0.01968 residue 0.05973 func_value -6.577614 cg_norm 6e-05
+Iter. =  0 Error =  1.707485972673515e-05 State # 1 is converged!!
+
+SCF error in gamma: 7.180529092966695e-05
+
+mu = 15.0 iter. =  0 SCF Error =  7.180529092966695e-05 SCF is Converged!!
+
+penalty iteration convergence
+residue_error 0.05999697234152199
+energy_error 3.731067899082063e-09
+total_energy -6.57761448314819
+update penalty parameters according to penalty function norm: 4.415903198662363e-10
+update penalty parameter mu: 15.0
+new mu: 150.0
+new Lagrange multiplier: [0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.10000064]
+new constraint tolerance: 0.5653115705856911
+new scf tolerance 2.5e-05
+
+#####################################################################################################
+Penalty Iteration: 31
+Current penalty parameter mu =150.0000
+
+######################################################################
+SCF Iteration: 0
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 3e-05 eig_val -3.35532 eig_val_pen 0.0 residue 0.00027 func_value -6.577611 cg_norm 0.00027
+State Iteration: 1 NON > 0 [0.     0.     0.     0.     0.     0.     0.     0.     0.     0.
+ 0.     0.     0.     0.     1.9986 2.0014] alpha 0.00086 eig_val -3.35532 eig_val_pen 0.0 residue 0.00019 func_value -6.577189 cg_norm 0.00038
+State Iteration: 2 NON > 0 [0.     0.     0.     0.     0.     0.     0.     0.     0.     0.
+ 0.     0.     0.     1.9986 2.0014] alpha 2e-05 eig_val -3.35532 eig_val_pen 0.0 residue 0.00012 func_value -6.577172 cg_norm 0.00028
+State Iteration: 3 NON > 0 [0.    0.    0.    0.    0.    0.    0.    0.    0.    0.    0.    0.
+ 0.    0.    0.    1.998 2.002] alpha 0.00033 eig_val -3.35532 eig_val_pen 0.0 residue 0.00014 func_value -6.576818 cg_norm 0.00016
+State Iteration: 4 NON > 0 [0.    0.    0.    0.    0.    0.    0.    0.    0.    0.    0.    0.
+ 0.    1.998 2.002] alpha 2e-05 eig_val -3.35532 eig_val_pen 0.0 residue 0.0001 func_value -6.576791 cg_norm 0.00026
+State Iteration: 5 NON > 0 [0.     0.     0.     0.     0.     0.     0.     0.     0.     0.
+ 0.     0.     0.     0.     0.     1.9977 2.0023] alpha 0.00015 eig_val -3.35532 eig_val_pen 0.0 residue 5e-05 func_value -6.576621 cg_norm 0.00018
+State Iteration: 6 NON > 0 [0.     0.     0.     0.     0.     0.     0.     0.     0.     0.
+ 0.     0.     0.     0.     0.     1.9977 2.0023] alpha 1e-05 eig_val -3.35532 eig_val_pen 0.0 residue 3e-05 func_value -6.576617 cg_norm 7e-05
+State Iteration: 7 NON > 0 [0.     0.     0.     0.     0.     0.     0.     0.     0.     0.
+ 0.     0.     0.     0.     0.     1.9977 2.0023] alpha 2e-05 eig_val -3.35532 eig_val_pen 0.0 residue 2e-05 func_value -6.576609 cg_norm 3e-05
+State Iteration: 8 NON > 0 [0.     0.     0.     0.     0.     0.     0.     0.     0.     0.
+ 0.     0.     0.     0.     1.9977 2.0023] alpha 0.0 eig_val -3.35532 eig_val_pen 0.0 residue 1e-05 func_value -6.576608 cg_norm 2e-05
+Iter. =  8 Error =  1.5984896235088357e-06 State # 0 is converged!!
+
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 1e-05 eig_val -3.19951 eig_val_pen 0.02278 residue 0.06353 func_value -6.577615 cg_norm 4e-05
+State Iteration: 1 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 4e-05 eig_val -3.21057 eig_val_pen 0.01172 residue 0.04698 func_value -6.577615 cg_norm 8e-05
+State Iteration: 2 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 3e-05 eig_val -3.22211 eig_val_pen 0.00018 residue 0.00599 func_value -6.577615 cg_norm 0.00037
+State Iteration: 3 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 0.0 eig_val -3.22184 eig_val_pen 0.00045 residue 0.0095 func_value -6.577615 cg_norm 5e-05
+State Iteration: 4 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 2e-05 eig_val -3.21969 eig_val_pen 0.0026 residue 0.02266 func_value -6.577615 cg_norm 4e-05
+State Iteration: 5 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 2e-05 eig_val -3.12053 eig_val_pen 0.10176 residue 0.09999 func_value -6.577615 cg_norm 0.0002
+State Iteration: 6 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 0.0 eig_val -3.11944 eig_val_pen 0.10285 residue 0.09996 func_value -6.577615 cg_norm 3e-05
+Iter. =  6 Error =  1.8373782941807594e-06 State # 1 is converged!!
+
+SCF error in gamma: 0.0009860393154246937
+
+######################################################################
+SCF Iteration: 1
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 0.0 eig_val -3.35532 eig_val_pen 0.0 residue 1e-05 func_value -6.577615 cg_norm 1e-05
+Iter. =  0 Error =  1.9936881651142235e-06 State # 0 is converged!!
+
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 1e-05 eig_val -3.20501 eig_val_pen 0.01728 residue 0.05619 func_value -6.577615 cg_norm 1e-05
+State Iteration: 1 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 1e-05 eig_val -3.10997 eig_val_pen 0.11232 residue 0.09924 func_value -6.577615 cg_norm 5e-05
+State Iteration: 2 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 1e-05 eig_val -3.11041 eig_val_pen 0.11188 residue 0.09929 func_value -6.577615 cg_norm 1e-05
+State Iteration: 3 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 0.0 eig_val -3.15481 eig_val_pen 0.06748 residue 0.09456 func_value -6.577615 cg_norm 3e-05
+Iter. =  3 Error =  2.0025358936576258e-06 State # 1 is converged!!
+
+SCF error in gamma: 4.981904893123805e-05
+
+######################################################################
+SCF Iteration: 2
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 0.0 eig_val -3.35532 eig_val_pen 0.0 residue 0.0 func_value -6.577615 cg_norm 1e-05
+Iter. =  0 Error =  7.402599547984348e-07 State # 0 is converged!!
+
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 0.0 eig_val -3.02741 eig_val_pen 0.19488 residue 0.03158 func_value -6.577615 cg_norm 0.0
+Iter. =  0 Error =  1.2829363132427805e-06 State # 1 is converged!!
+
+SCF error in gamma: 4.189348348569552e-06
+
+mu = 150.0 iter. =  2 SCF Error =  4.189348348569552e-06 SCF is Converged!!
+
+penalty iteration convergence
+residue_error 0.0315856446811056
+energy_error 4.486093008182479e-08
+total_energy -6.5776145280091205
+update penalty parameters according to penalty function norm: 1.234568003383174e-13
+update penalty Lagrange multipliers: [0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.10000064]
+new mu: 150.0
+new Lagrange multiplier: [0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.10000064]
+new constraint tolerance: 0.0033333333333333327
+new scf tolerance 2.5e-05
+
+#####################################################################################################
+Penalty Iteration: 32
+Current penalty parameter mu =150.0000
+
+######################################################################
+SCF Iteration: 0
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 0.0 eig_val -3.35532 eig_val_pen 0.0 residue 1e-05 func_value -6.577615 cg_norm 0.0
+Iter. =  0 Error =  1.2652251817072284e-06 State # 0 is converged!!
+
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 0.0 eig_val -3.02485 eig_val_pen 0.19744 residue 0.02247 func_value -6.577615 cg_norm 1e-05
+Iter. =  0 Error =  3.5498323962378107e-07 State # 1 is converged!!
+
+SCF error in gamma: 3.7151420109972715e-06
+
+mu = 150.0 iter. =  0 SCF Error =  3.7151420109972715e-06 SCF is Converged!!
+
+penalty iteration convergence
+residue_error 0.02248285677685991
+energy_error 7.791989276029199e-12
+total_energy -6.5776145280169125
+update penalty parameters according to penalty function norm: 4.973799150320701e-14
+update penalty Lagrange multipliers: [0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.10000064]
+new mu: 150.0
+new Lagrange multiplier: [0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.10000064]
+new constraint tolerance: 1.9654844671938058e-05
+new scf tolerance 2.5e-05
+
+#####################################################################################################
+Penalty Iteration: 33
+Current penalty parameter mu =150.0000
+
+######################################################################
+SCF Iteration: 0
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 0.0 eig_val -3.35532 eig_val_pen 0.0 residue 0.0 func_value -6.577615 cg_norm 1e-05
+Iter. =  0 Error =  5.102190126698431e-07 State # 0 is converged!!
+
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 0.0 eig_val -3.04866 eig_val_pen 0.17363 residue 0.06767 func_value -6.577615 cg_norm 0.0
+Iter. =  0 Error =  8.700477301731741e-07 State # 1 is converged!!
+
+SCF error in gamma: 2.8526943011787686e-06
+
+mu = 150.0 iter. =  0 SCF Error =  2.8526943011787686e-06 SCF is Converged!!
+
+penalty iteration convergence
+residue_error 0.0676694072480649
+energy_error 5.701217276055104e-12
+total_energy -6.577614528022614
+update penalty parameters according to penalty function norm: 8.348877145181177e-14
+update penalty Lagrange multipliers: [0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.10000064]
+new mu: 150.0
+new Lagrange multiplier: [0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.10000064]
+new constraint tolerance: 1.1589387572340358e-07
+new scf tolerance 2.5e-05
+
+#####################################################################################################
+Penalty Iteration: 34
+Current penalty parameter mu =150.0000
+
+######################################################################
+SCF Iteration: 0
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 0.0 eig_val -3.35532 eig_val_pen 0.0 residue 1e-05 func_value -6.577615 cg_norm 0.0
+Iter. =  0 Error =  8.936205828841564e-07 State # 0 is converged!!
+
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 0.0 eig_val -3.02987 eig_val_pen 0.19243 residue 0.03818 func_value -6.577615 cg_norm 0.0
+Iter. =  0 Error =  2.6991795387056443e-07 State # 1 is converged!!
+
+SCF error in gamma: 2.638349292531595e-06
+
+mu = 150.0 iter. =  0 SCF Error =  2.638349292531595e-06 SCF is Converged!!
+
+penalty iteration convergence
+residue_error 0.03818751443456543
+energy_error 4.092726157978177e-12
+total_energy -6.577614528026706
+update penalty parameters according to penalty function norm: 6.217248937900877e-14
+update penalty Lagrange multipliers: [0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.10000064]
+new mu: 150.0
+new Lagrange multiplier: [0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.10000064]
+new constraint tolerance: 6.833628377317173e-10
+new scf tolerance 2.5e-05
+
+#####################################################################################################
+Penalty Iteration: 35
+Current penalty parameter mu =150.0000
+
+######################################################################
+SCF Iteration: 0
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 0.0 eig_val -3.35532 eig_val_pen 0.0 residue 0.0 func_value -6.577615 cg_norm 1e-05
+Iter. =  0 Error =  3.745538416709275e-07 State # 0 is converged!!
+
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 0.0 eig_val -3.07521 eig_val_pen 0.14708 residue 0.08822 func_value -6.577615 cg_norm 0.0
+Iter. =  0 Error =  5.83322791889422e-07 State # 1 is converged!!
+
+SCF error in gamma: 1.9605927810712675e-06
+
+mu = 150.0 iter. =  0 SCF Error =  1.9605927810712675e-06 SCF is Converged!!
+
+penalty iteration convergence
+residue_error 0.08822547816147099
+energy_error 3.1112890042095387e-12
+total_energy -6.577614528029818
+update penalty parameters according to penalty function norm: 1.9539925233402755e-14
+update penalty Lagrange multipliers: [0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.10000064]
+new mu: 150.0
+new Lagrange multiplier: [0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.10000064]
+new constraint tolerance: 4.0294171290575155e-12
+new scf tolerance 2.5e-05
+
+#####################################################################################################
+Penalty Iteration: 36
+Current penalty parameter mu =150.0000
+
+######################################################################
+SCF Iteration: 0
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 0.0 eig_val -3.35532 eig_val_pen 0.0 residue 0.0 func_value -6.577615 cg_norm 0.0
+Iter. =  0 Error =  7.550061690374468e-07 State # 0 is converged!!
+
+State Iteration: 0 NON > 0 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 2.] alpha 0.0 eig_val -3.02759 eig_val_pen 0.1947 residue 0.03213 func_value -6.577615 cg_norm 0.0
+Iter. =  0 Error =  2.1114748166611963e-07 State # 1 is converged!!
+
+SCF error in gamma: 2.214758908195404e-06
+
+mu = 150.0 iter. =  0 SCF Error =  2.214758908195404e-06 SCF is Converged!!
+
+penalty iteration convergence
+residue_error 0.03213456654918684
+energy_error 2.6272317654729704e-12
+total_energy -6.577614528032445
+update penalty parameters according to penalty function norm: 1.9984014443252818e-14
+update penalty Lagrange multipliers: [0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.10000064]
+new mu: 150.0
+new Lagrange multiplier: [0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.10000064]
+new constraint tolerance: 2.375927033702162e-14
+new scf tolerance 2.5e-05
+
+#####################################################################################################
+Penalty Iteration: 37
+Current penalty parameter mu =150.0000
+
+######################################################################
+SCF Iteration: 0
+Traceback (most recent call last):
+  File "/home/buchholf/OwnCloudGWDG/density_matrix_minimization/dressed_RDM/codes/TB_PdHF/scf.py", line 301, in <module>
+    main()
+  File "/home/buchholf/OwnCloudGWDG/density_matrix_minimization/dressed_RDM/codes/TB_PdHF/scf.py", line 293, in main
+    run(parameters, write_static)
+  File "/home/buchholf/OwnCloudGWDG/density_matrix_minimization/dressed_RDM/codes/TB_PdHF/scf.py", line 253, in run
+    scf_method(write_static, hamiltonian, states, minimization, penalty)
+  File "/home/buchholf/OwnCloudGWDG/density_matrix_minimization/dressed_RDM/codes/TB_PdHF/scf.py", line 53, in scf_method
+    minimization.minimizer_method(write_static, hamiltonian, states, penalty)
+  File "/home/buchholf/OwnCloudGWDG/density_matrix_minimization/dressed_RDM/codes/TB_PdHF/minimizer.py", line 264, in minimizer_method
+    self.conjugate_gradient(write_static, hamiltonian, states, index_orb, penalty)
+  File "/home/buchholf/OwnCloudGWDG/density_matrix_minimization/dressed_RDM/codes/TB_PdHF/minimizer.py", line 165, in conjugate_gradient
+    alpha = line_minimization(psi, cg_normalized, states_lm, hamiltonian, tol_line_min, penalty_lm)
+  File "/home/buchholf/OwnCloudGWDG/density_matrix_minimization/dressed_RDM/codes/TB_PdHF/line_minimization.py", line 56, in line_minimization
+    alpha, error = minimize_functional(alpha_min, alpha_max, psi, cg, states, hamiltonian, penalty, print_flag)
+  File "/home/buchholf/OwnCloudGWDG/density_matrix_minimization/dressed_RDM/codes/TB_PdHF/line_minimization.py", line 16, in minimize_functional
+    states.update_reduced_quantities()
+  File "/home/buchholf/OwnCloudGWDG/density_matrix_minimization/dressed_RDM/codes/TB_PdHF/states.py", line 308, in update_reduced_quantities
+    self.build_gamma()
+  File "/home/buchholf/OwnCloudGWDG/density_matrix_minimization/dressed_RDM/codes/TB_PdHF/states.py", line 272, in build_gamma
+    self.gamma += self.occupations[I] * np.outer(psi, np.conj(psi))
+KeyboardInterrupt
